@@ -1,0 +1,23 @@
+---
+const name = 'Brad'
+console.log(name);
+// consoles in node.js
+
+const users = [
+    {name: 'Sarah', age: 41},
+    {name: 'Max', age: 21},
+    {name: 'Justin', age: 101},
+]
+---
+<h1>Hello {name}</h1>
+
+<ul>
+    {users.map(user => (
+        <li>{user.name}, {user.age}</li>
+    ))}
+</ul>
+
+<script>    
+console.log(123);
+// consoles into browser
+</script>   
